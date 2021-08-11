@@ -10,41 +10,41 @@
 </head>
 <body>
     <!-- Header section -->
-    <div class="container sticky">
-        <header class="main-header">
-                <div class="main-header__brand">
-                    <a href="index.html">
-                            <img src="images/logo.png" alt="Logo">
-                    </a>
-                </div>
-                <nav class="main-navigation">
-                    <ul class="main-navigation__items">
-                            <li class="main-navigation__item active">
-                                <a href="#main">Main</a>
-                            </li>
-                            <li class="main-navigation__item">
-                                <a href="#about">About me</a>
-                            </li>
-                            <li class="main-navigation__item">
-                                <a href="#services">Services</a>
-                            </li>
-                            <li class="main-navigation__item">
-                                <a href="#clients">Clients</a>
-                            </li>
-                            <li class="main-navigation__item">
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="main-navigation__item">
-                                <a href="#blog">Blog</a>
-                            </li>
-                            <li class="main-navigation__item">
-                                <a href="#partners">Partners</a>
-                            </li>
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__brand">
+                <a href="index.html">
+                        <img src="images/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                        <li class="main-navigation__item active">
+                            <a href="#main">Main</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#about">About me</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#clients">Clients</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#blog">Blog</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#partners">Partners</a>
+                        </li>
 
-                    </ul>
-                </nav>
-        </header>
-    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <!-- /Header section -->
 
     <!-- Main section -->
@@ -195,9 +195,28 @@
     <!-- /Clients section -->
 
     <!-- Portfolio section -->
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-    </section>
+    <div class="container">
+        <section id="portfolio" class="portfolio">
+            <div class="section-subtitle">
+                Portfolio
+                <span class="blur-line"></span>
+            </div>
+            <div class="section-title">
+                Check our recent <br>
+                client work
+            </div>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="./images/portfolio-1.jpg" alt="Portfolio image 1" class="portfolio-item__image">
+                    <div class="portfolio-item__overlay"></div>
+                    <div class="portfolio-item__info">
+                        <h4><a href="#">Portfolio item 1</a></h4>
+                        <p>About my work</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- /Portfolio section -->
 
     <!-- Blog section -->
